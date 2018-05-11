@@ -1,5 +1,6 @@
- 
  /*INDEX STYLES*/
+
+ /*HEADER*/
 
  .header {
      display: flex;
@@ -15,3 +16,36 @@
      text-transform: uppercase;
      letter-spacing: 3px;
  }
+
+ /*NAVBAR*/
+
+ #nav1 {
+     background-color: none;
+     border: none;
+     border-radius: 0px;
+     border-top: 1px solid black;
+     border-bottom: 1px solid black;
+     margin: 0px;
+ }
+
+ #nav-links {
+
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+
+ }
+
+ .navbar-nav>li>a {
+     padding-top: 5px !important;
+     padding-bottom: 5px !important;
+     color: black !important;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+ }
+
+ .navbar {
+     min-height: 1vh !important
+ }
+
+ 
