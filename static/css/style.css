@@ -1,0 +1,17 @@
+ 
+ /*INDEX STYLES*/
+
+ .header {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 19.5vh;
+     background-color: black;
+ }
+
+ #header-headline {
+     color: white;
+     font-size: 50px;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+ }
