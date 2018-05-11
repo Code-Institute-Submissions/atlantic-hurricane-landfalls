@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/static/css/style.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.9/dc.min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
     <!--SCRIPTS-->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js"></script>
@@ -52,10 +53,18 @@
    
      <main class="row">
     <!--IMAGE SIDEBAR-->
-     <div class="col-sm-4 image">
-         <img src="/static/images/background.jpg" alt="hurricane damaged cityscape" class="img-responsive index-image"></img>
+     <div class="col-sm-4" id="image">
+         <img src="/static/images/background.jpg" alt="hurricane damaged cityscape" class="index-image"></img>
      </div>  
-     
+     <!--CONTENT PANEL-->
+     <content class="col-sm-8" id="content">
+        <div class="content-text-container">
+          <h2 id="content-panel-headline">Introduction</h2>
+          <p>This data dashboard will seek to provide the user with a way to visualize the hurricanes that hit the US Mainland since 1950 which was the year that marked the introduction of named storms.It is looking to see whether the frequency and or the intensity of storms has increased since then.In the Methodology section the way the data was processed will be detailed as well as the reasons for the decisions made.Finally,in the Code section the source for the project will be provided as well as a link to its git hub page.</p>
+         
+          </div>
+          
+     </content>
     </main>
 </body>
 
