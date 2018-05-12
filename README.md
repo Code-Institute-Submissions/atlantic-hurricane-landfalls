@@ -19,7 +19,9 @@ This project aims to provide a data visualization for all the atlantic hurricane
 * [heroku]() - Dependency Management
 * [mlab]() - Hosts Data
 
-
+##Notes
+* As previously mentioned the code for cleaning and processing the data is avaliable and explained on the website.
+* The decision was made not to make the site responsive as the dashboard is meant to be viewed on a large screen. 
 
 
 ## Acknowledgments
