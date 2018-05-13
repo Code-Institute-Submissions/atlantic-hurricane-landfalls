@@ -95,12 +95,19 @@
  }
  
  .dc-select-menu{
-     border:1px solid black;
-     border-radius:0%;
+    border: 2px solid black;
+    border-radius: 0px;
+    background: none;
+    height: 30px;
+ }
+ .dc-select-option{
+    background: none;
  }
  
  #select-category-label{
      font-family: 'Fira Sans', sans-serif;
       letter-spacing: 2px;
       width:auto;
+      display:flex;
+      align-items:center;
  }
