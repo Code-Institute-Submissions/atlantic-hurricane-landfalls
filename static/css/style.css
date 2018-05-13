@@ -96,10 +96,11 @@
  
  .dc-select-menu{
      border:1px solid black;
+     border-radius:0%;
  }
  
  #select-category-label{
      font-family: 'Fira Sans', sans-serif;
-      letter-spacing: 3px;
+      letter-spacing: 2px;
       width:auto;
  }
