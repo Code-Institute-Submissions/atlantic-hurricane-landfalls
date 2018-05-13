@@ -85,12 +85,10 @@
 .content-text-container p{
     font-size: 20px
 }
-#content-panel-headline{
+#content-panel-headline,#content-panel-notes-headline{
     text-decoration:underline;
 }
-#content-panel-notes-headline{
-    text-decoration:underline;
-}
+
  /*DASHBOARD STYLES*/
  
  .selector{
