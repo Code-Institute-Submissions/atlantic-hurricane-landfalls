@@ -160,4 +160,5 @@ function makeGraphs(error, hurricaneData) {
         });
         show_map()
     });
+     dc.renderAll();
 }
