@@ -71,7 +71,7 @@ function makeGraphs(error, hurricaneData) {
     );
 
     let boxplot = dc.boxPlot("#box-plot")
-        .width(500)
+        .width(800)
         .height(500)
         .margins({ top: 10, right: 50, bottom: 30, left: 50 })
         .dimension(Year_dim)

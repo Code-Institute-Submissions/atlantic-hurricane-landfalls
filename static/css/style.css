@@ -92,6 +92,7 @@
  
  .selector{
      margin-top:15px;
+     margin-left:30px;
  }
  
  .dc-select-menu{
@@ -117,4 +118,8 @@
 #mapdiv{
     margin-left:30px;
     margin-top:30px;
+}
+
+.charts-row-1{
+    margin-left:30px;
 }
