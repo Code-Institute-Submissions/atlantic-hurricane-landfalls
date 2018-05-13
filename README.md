@@ -20,7 +20,7 @@ Created on Sun May  6 13:45:32 2018
 #import numpy and pandas
 import pandas as pd
 import numpy as np
-import math
+
 #read in csv
 df = pd.read_csv('/Downloads/hurricanes-and-typhoons-1851-2014/atlantic.csv')
 #select rows
@@ -85,9 +85,10 @@ df3.to_csv('/Downloads/hurricanes-and-typhoons-1851-2014/atlantic_clean.csv')
 * [mlab]() - Hosts Data
 
 ## Notes
-* As previously mentioned the code for cleaning and processing the data is avaliable and explained on the website.
+
 * The decision was made not to make the site responsive as the dashboard is meant to be viewed on a large screen. 
 
 
 ## Acknowledgments
-
+* https://bl.ocks.org/mbostock
+* http://adilmoujahid.com/posts/2016/08/interactive-data-visualization-geospatial-d3-dc-leaflet-python/
