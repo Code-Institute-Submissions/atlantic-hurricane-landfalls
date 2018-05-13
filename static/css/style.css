@@ -115,14 +115,12 @@
       height:40px;
  }
  
-#mapdiv{
-    margin-left:30px;
-   
-}
 
-.chart1{
+
+#chart1{
     width:40vw;
 }
-.chart2{
+#chart2{
     width:40vw;
+      margin-left:30px;
 }
