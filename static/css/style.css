@@ -58,25 +58,9 @@
    
 
  }
-  #image-method {
-     background-color: grey;
-     height: 79.5vh;
-     padding-right: 0px;
-     padding-left: 0px;
-     position: fixed;
-     bottom: 20%; 
-     top: 0%
+  
 
- }
 
-#image-inner{
-    overflow-y: scroll; 
-    height: 100%
-}
-
-#codesnippet{
-    width:50vw;
-}
  .index-image {
      width: 100%;
      height: 80vh;
