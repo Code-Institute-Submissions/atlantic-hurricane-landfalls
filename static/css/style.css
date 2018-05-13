@@ -99,6 +99,7 @@
     border-radius: 0px;
     background: none;
     height: 30px;
+    font-size:15px;
  }
  .dc-select-option{
     background: none;
@@ -110,4 +111,5 @@
       width:auto;
       display:flex;
       align-items:center;
+      height:40px;
  }
