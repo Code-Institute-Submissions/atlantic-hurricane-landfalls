@@ -21,11 +21,11 @@ def get_home_page():
     return render_template('index.html')
     
 @app.route("/methodology")
-def get_home_page():
+def get_methodology():
     return render_template('methodology.html')
     
 @app.route("/code")
-def get_home_page():
+def get_code():
     return render_template('code.html')
     
 @app.route("/dashboard")
