@@ -94,11 +94,12 @@
      margin-top:15px;
  }
  
- .dc-selector-menu{
+ .dc-select-menu{
      border:1px solid black;
  }
  
  #select-category-label{
      font-family: 'Fira Sans', sans-serif;
       letter-spacing: 3px;
+      width:auto;
  }
