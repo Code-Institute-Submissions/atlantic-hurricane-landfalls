@@ -3,6 +3,9 @@
 
 This project aims to provide a data visualization for all the atlantic hurricanes that made landfall between 1950 and 2015.The methodology and code is also included on the website so as to make the project reproducible.
 
+## Raw Data Source
+The raw data was sourced from kaggle
+[Link to raw Data]("https://www.kaggle.com/noaa/hurricane-database/data")
 
 ## Code For Cleaning the Data
 The data was cleaned with numpy and pandas.These don't work very well with the cloud9 IDE currently so it was done in spyder.
@@ -81,7 +84,7 @@ df3.to_csv('/Downloads/hurricanes-and-typhoons-1851-2014/atlantic_clean.csv')
 * [heroku]() - Dependency Management
 * [mlab]() - Hosts Data
 
-##Notes
+## Notes
 * As previously mentioned the code for cleaning and processing the data is avaliable and explained on the website.
 * The decision was made not to make the site responsive as the dashboard is meant to be viewed on a large screen. 
 
