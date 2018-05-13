@@ -6,11 +6,11 @@ import os
 
 
 app = Flask(__name__)
-MONGODB_URI = os.environ.get('MONGODB_URI')
+MONGO_DB_URI = os.environ.get('MONGO_DB_URI')
 MONGO_DB_NAME = os.environ.get('MONGO_DB_NAME')
 MONGO_COLLECTION_NAME = os.environ.get('MONGO_COLLECTION_NAME')
 
-FIELDS = {'': True, 'ID': True, 'Name': True, 'Date': True,'Time': True, 'Event': True, 'Status': True,'Latitude':True,'Longitude':True,'MaximumWind':True,'MAX_CAT':True, '_id':False}
+FIELDS = {'': True,'ID': True, 'Name': True, 'Date': True,'Time': True, 'Event': True, 'Status': True,'Latitude':True,'Longitude':True,'MaximumWind':True,'MAX_CAT':True, '_id':False}
 
 
 
