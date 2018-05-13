@@ -27,7 +27,7 @@ def get_dashboard():
 
 @app.route("/data")
 def get_data():
-    with MongoClient(MONGODB_URI) as conn:
+    with MongoClient(MONGO_DB_URI) as conn:
         collection = conn[MONGO_DB_NAME][MONGO_COLLECTION_NAME]
         landfallsdata = collection.find(projection=FIELDS)
         return json.dumps(list(landfallsdata))
