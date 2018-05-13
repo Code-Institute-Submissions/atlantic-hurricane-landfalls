@@ -73,6 +73,10 @@
     overflow-y: scroll; 
     height: 100%
 }
+
+#codesnippet{
+    width:50vw;
+}
  .index-image {
      width: 100%;
      height: 80vh;
