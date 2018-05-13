@@ -19,8 +19,15 @@ FIELDS = {'': True,'ID': True, 'Name': True, 'Date': True,'Time': True, 'Event':
 @app.route("/")
 def get_home_page():
     return render_template('index.html')
-
-
+    
+@app.route("/methodology")
+def get_home_page():
+    return render_template('methodology.html')
+    
+@app.route("/code")
+def get_home_page():
+    return render_template('code.html')
+    
 @app.route("/dashboard")
 def get_dashboard():
     return render_template('dashboard.html')    
