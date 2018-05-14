@@ -81,7 +81,7 @@ df3.to_csv('/Downloads/hurricanes-and-typhoons-1851-2014/atlantic_clean.csv')
 
 ## Hosts
 * [github]() - Hosts code and manages commits
-* [heroku]() - Dependency Management
+* [heroku]() - Deployment
 * [mlab]() - Hosts Data
 
 ## Notes
